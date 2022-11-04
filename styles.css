@@ -11,21 +11,31 @@ body {
 }
 
 .header {
+    background-color: #1f2937;
+    height: 500px;
+    width: 1831px;
 
 }
 
 .illustrations {
-    
+    height: 500px;
+    width: 1831px;
 }
 
+
 .quote {
-    
+    background-color:#E5E7EB;
+    height: 400px;
+    width: 1831px;
 }
 
 .sign-up {
-    
+    height: 350px;
+    width: 1831px;
 }
 
 .footer {
-    
+    background-color: #1f2937;
+    height: 150px;
+    width: 1831px;
 }
