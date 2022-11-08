@@ -1,41 +1,120 @@
 body {
     display: flex;
     margin: 0;
-    min-height: 100vh;
-    
+    min-height: 100vh; 
 }
 
 .body {
     display: flex;
     flex-direction: column;
+    flex: 0 0 100%; 
 }
 
 .header {
     background-color: #1f2937;
-    height: 500px;
-    width: 1831px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 60%;
+    height:200px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    height: 75px; 
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header-links {
+    font-size: 18px;
+    display: flex;
+    align-items: center;  
+}
+
+.awesome-website {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 600px;
+}
+
+.awesome-top {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    width: 600px;
+    height: 125px;
 
 }
+
+.awesome-middle {
+    width: 600px;
+    height: 75px; 
+    color: white;
+    font-size: 18px;
+}
+
+.awesome-bottom{
+   
+    
+}
+
+.placeholder {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width: 600px;
+    background-color: dimgray;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+   }
 
 .illustrations {
-    height: 500px;
-    width: 1831px;
+    display: flex;
+    flex: 0 0 60%;
+  
+    
 }
-
 
 .quote {
     background-color:#E5E7EB;
-    height: 400px;
-    width: 1831px;
+    display: flex;
+    flex: 0 0 50%;
+ 
 }
 
 .sign-up {
-    height: 350px;
-    width: 1831px;
+    display: flex;
+    flex: 0 0 35%;
+    
+
 }
 
 .footer {
     background-color: #1f2937;
-    height: 150px;
-    width: 1831px;
+    display: flex;
+    flex: 0 0 10%;
 }
