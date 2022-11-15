@@ -21,7 +21,7 @@ body {
 .header-top {
     display: flex;
     justify-content: space-around;
-    height: 75px; 
+    height: 75px;
 }
 
 .header-bottom {
@@ -34,6 +34,7 @@ body {
 
 .header-logo {
     font-size: 24px;
+    font-weight: bolder;
     color: #F9FAF8;
     display: flex;
     align-items: center;
@@ -74,6 +75,13 @@ body {
     
 }
 
+.button {
+    width: 120px;
+    height: 35px;
+    color: white;
+    border-radius: 10px; 
+}
+
 .placeholder {
     color: white;
     justify-content: center;
@@ -82,22 +90,52 @@ body {
     align-items: center;
     height: 250px;
     width: 600px;
-    background-color: dimgray;
+    background-color: dimgray;  
+}
+
+.illustrations {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 60%; 
+}
+
+.illustrations-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    height: 150px;
+ 
+}
+
+.illustrations-bottom {
+    display: flex;
+    flex: auto;
+}
+
+.subtexts {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 50px;
+
+}
+
+.subtexts-one, .subtexts-two, .subtexts-three, .subtexts-four {
+    display: flex;
+    background-color: aqua;
+    border: 5px;
+    border-color: blue;
     
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 15px;
    }
-
-.illustrations {
-    display: flex;
-    flex: 0 0 60%;
-  
-    
-}
 
 .quote {
     background-color:#E5E7EB;
