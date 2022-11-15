@@ -139,6 +139,26 @@ body {
     text-align: center;
 }
 
+.quote {
+    display: flex;
+}
+
+.quote-middle {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: auto;
+    align-content: center;
+    width: 1000px;
+    height: 75x;
+}
+
+.quote-corner {
+
+    
+}
+
 ul {
     list-style-type: none;
     display: flex;
