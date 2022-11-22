@@ -60,7 +60,6 @@ body {
     font-weight: bold;
     width: 600px;
     height: 125px;
-
 }
 
 .awesome-middle {
@@ -106,7 +105,6 @@ body {
     font-size: 36px;
     font-weight: bolder;
     height: 150px;
- 
 }
 
 .illustrations-bottom {
@@ -118,9 +116,7 @@ body {
     display: flex;
     flex: auto;
     justify-content: center;
-    
     gap: 50px;
-
 }
 
 .subtexts-one, .subtexts-two, .subtexts-three, .subtexts-four {
@@ -145,18 +141,23 @@ body {
 
 .quote-middle {
     display: flex;
-    font-size: 36px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-left: 425px;
+    font-size: 40px;
     font-style: italic;
     color: #1F2937;
-    margin: auto;
     align-content: center;
-    width: 1000px;
-    height: 75x;
+    width: 1000px;  
 }
 
 .quote-corner {
-
-    
+    display: flex;
+    justify-content: flex-end;
+    width: 1000px;
+    margin-top: 15px;  
+    font-weight: bolder;
+    font-size: 36px;
 }
 
 ul {
